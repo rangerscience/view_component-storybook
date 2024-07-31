@@ -102,6 +102,9 @@ GEM
     connection_pool (2.4.1)
     crass (1.0.6)
     date (3.3.4)
+    debug (1.9.2)
+      irb (~> 1.10)
+      reline (>= 0.3.8)
     diff-lcs (1.5.1)
     docile (1.4.1)
     drb (2.2.1)
@@ -309,6 +312,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.2)
   capybara (~> 3)
+  debug
   dry-initializer (~> 3.0.4)
   rails
   rake (~> 13.0)

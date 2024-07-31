@@ -39,7 +39,7 @@ module ViewComponent
           default_value_parts = code_method.parameters.find { |parts| parts[0].chomp(":") == param.to_s }
           return unless default_value_parts
 
-          code_method.instance_eval(default_value_parts[1])
+          code_method.instance_eval(default_value_parts[1].chomp(","))
         end
 
         def build_control(param, as:, **opts)
