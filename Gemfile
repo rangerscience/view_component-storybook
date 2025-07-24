@@ -3,5 +3,5 @@
 source "https://rubygems.org"
 gemspec
 
+gem "debug"
 gem "rails"
-gem 'debug'
